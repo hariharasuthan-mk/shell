@@ -1,7 +1,5 @@
 import os
 import sys
-#print("hello from python start")
-#print("hello from python end")
 
 dir1     = []
 file1    = []
@@ -17,4 +15,5 @@ def getlistdir_file(rootDir):
             file1.append(filepath)
     mergedlist_file_dir = dir1 + file1
     print(mergedlist_file_dir)
+    
 getlistdir_file(sys.argv[1])
